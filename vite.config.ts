@@ -16,7 +16,7 @@ export default defineConfig({
       '@modules': resolve(__dirname, './packages/@modules'),
       '@themes': resolve(__dirname, './packages/@themes'),
       '@components': resolve(__dirname, './packages/@components'),
-      '@projects': resolve(__dirname, './packages/@projects'),
+      '@projects': resolve(__dirname, './packages/@projects'), 
     }
   },
   css: {
