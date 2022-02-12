@@ -1,19 +1,12 @@
 0 silly argv {
 0 silly argv   _: [ 'create' ],
 0 silly argv   lernaVersion: '4.0.0',
-0 silly argv   '$0': '..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
-0 silly argv   name: '@components/pkg1'
+0 silly argv   '$0': 'D:\\nodeJS\\node_global\\node_modules\\lerna\\cli.js',
+0 silly argv   name: 'packages/@modules'
 0 silly argv }
 1 notice cli v4.0.0
-2 verbose rootPath C:\Users\qingshan\Desktop\vue-web-qingshan
-3 warn ENOREMOTE No git remote found, skipping repository property
-4 error Error: canceled
-4 error     at Interface.<anonymous> (C:\Users\qingshan\AppData\Roaming\npm\node_modules\lerna\node_modules\read\lib\read.js:66:13)
-4 error     at Interface.emit (node:events:394:28)
-4 error     at Interface._ttyWrite (node:readline:1069:16)
-4 error     at ReadStream.onkeypress (node:readline:288:10)
-4 error     at ReadStream.emit (node:events:394:28)
-4 error     at emitKeys (node:internal/readline/utils:358:14)
-4 error     at emitKeys.next (<anonymous>)
-4 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
-4 error     at ReadStream.emit (node:events:394:28)
+2 verbose rootPath C:\Users\青山\Desktop\sence
+3 error TypeError: Cannot read property 'toLocaleLowerCase' of undefined
+3 error     at camelCase (C:\Users\青山\Desktop\sence\node_modules\yargs-parser\build\index.cjs:8:15)
+3 error     at CreateCommand.initialize (C:\Users\青山\Desktop\sence\node_modules\@lerna\create\index.js:63:22)
+3 error     at C:\Users\青山\Desktop\sence\node_modules\@lerna\command\index.js:274:24
